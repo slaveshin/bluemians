@@ -8,9 +8,7 @@ const Top = styled.div``;
 function Main() {
   return (
     <MainContainer>
-      <Top>
-        <NavBar />
-      </Top>
+      <Top>this is main page</Top>
     </MainContainer>
   );
 }

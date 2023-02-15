@@ -3,6 +3,12 @@ import styled from "styled-components";
 
 import { FaBars, FaTimes } from "react-icons/fa";
 
+const Logo = styled.a`
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+`;
+
 const NavBar = () => {
   const navRef = useRef();
 
@@ -12,12 +18,14 @@ const NavBar = () => {
 
   return (
     <header>
-      <h3>Bluemians</h3>
+      <h3>
+        <Logo href="/">Bluemians</Logo>
+      </h3>
       <nav ref={navRef}>
-        <a href="/#">애터미 소개</a>
-        <a href="/#">제품</a>
-        <a href="/#">마켓팅 플랜</a>
-        <a href="/#">블루미언즈 소개</a>
+        <a href="/AtomyIntroduction">애터미 소개</a>
+        <a href="/Product">제품</a>
+        <a href="/MarketingPlan">마켓팅 플랜</a>
+        <a href="/BluemiansIntroduction">블루미언즈 소개</a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
         </button>
