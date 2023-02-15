@@ -56,3 +56,4 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 - npm i styled-components --save(styled-components : javascript에서 css 사용이 가능한 스타일링 프레임워크)
 - npm i styled-reset --save(styled-reset : css 설정 초기화)
 - npm i react-slick --save(slick : slide 배너 라이브러리)
+- npm i react-icons(icons : 리액트에서 제공하는 아이콘)
