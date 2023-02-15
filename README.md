@@ -39,32 +39,20 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## How to install package
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. remove package-lock.json file
+2. npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## devDependencies
 
-### Code Splitting
+- npm i eslint-config-prettier --save-dev(eslint-config-prettier : prettier와 충돌할 설정들을 비활성화)
+- npm i eslint-plugin-prettier --save-dev(eslint-plugin-prettier : eslint에 prettier의 포매팅 기능을 추가)
+- npm i prettier --save-dev --save-exact(--save-exact : 버전이 달라지면서 생길 스타일 변화를 막기 위함)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## dependencies
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- npm i react-router-dom --save(react-router-dom : router 사용)
+- npm i styled-components --save(styled-components : javascript에서 css 사용이 가능한 스타일링 프레임워크)
+- npm i styled-reset --save(styled-reset : css 설정 초기화)
+- npm i react-slick --save(slick : slide 배너 라이브러리)
